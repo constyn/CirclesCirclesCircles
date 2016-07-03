@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Circles Circles Circles</title>
+    <meta charset="utf-8">
+    <script src="libs/lodash/lodash.js"></script>
+    <script src="libs/phaser/build/phaser.min.js"></script>
+    <script src="src/Boot.js"></script>
+    <script src="src/Game.js"></script>
+</head>
+<body>
+
+    <div id="game"></div>
+
+    <script type="text/javascript">
+
+    (function () {
+        var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'game');
+        game.state.add('Boot', Circles.Boot);
+        game.state.add('Game', Circles.Game);
+        game.state.start('Boot');
+    })();
+    </script>
+
+</body>
+</html>

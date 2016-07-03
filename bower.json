@@ -1,0 +1,23 @@
+{
+  "name": "circles",
+  "description": "",
+  "main": "",
+  "authors": [
+    "constantin <tyres.o@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "phaser": "^2.5.0"
+  }
+}

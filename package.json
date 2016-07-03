@@ -1,0 +1,9 @@
+{
+  "name": "circles",
+  "version": "1.0.0",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0"
+  }
+}
