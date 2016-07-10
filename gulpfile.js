@@ -7,3 +7,5 @@ gulp.task('connect', function () {
         port: 8484,
     });
 });
+
+gulp.task('default', ['connect']);
